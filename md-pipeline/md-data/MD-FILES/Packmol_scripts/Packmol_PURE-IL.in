@@ -1,0 +1,22 @@
+# Tolerancia entre uma molecula e outra
+tolerance 2.0
+
+# Formato do arquivo de entrada
+filetype pdb
+
+# Formato e nome do arquivo de saida
+output CONF-START.pdb
+
+# Forma da caixa: xmin, ymin, zmin, xmax, ymax, zmax
+
+structure AA-CHO.pdb
+  number 300
+  inside box 0 0 0 55 55 55
+end structure
+
+structure AA-XXX.pdb
+  number 300
+  inside box 0 0 0 55 55 55 
+end structure
+
+

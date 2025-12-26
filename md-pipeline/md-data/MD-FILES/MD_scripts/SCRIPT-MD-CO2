@@ -1,0 +1,12 @@
+gmx grompp -f GROMPP-11.mdp -c CONF-START-CO2.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r CONF-START-CO2.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+
+gmx grompp -f GROMPP-12.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+

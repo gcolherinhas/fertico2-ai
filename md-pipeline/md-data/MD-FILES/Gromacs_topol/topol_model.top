@@ -1,0 +1,21 @@
+; Include forcefield parameters
+#include "./charmm36.ff/forcefield.itp"
+#include "./charmm36.ff/AA-CHO.itp"
+#include "./charmm36.ff/AA-XXX.itp"
+#include "./charmm36.ff/AA-XXX.itp"
+#include "./charmm36.ff/CO2.itp"
+
+[ system ]
+; Name
+LI-FAPEG
+
+[ molecules ]
+; Compound        #mols
+CHO               XXX
+XXX               XXX
+CHO               XXX
+XXX               XXX
+CO2               300
+
+
+

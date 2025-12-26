@@ -1,0 +1,22 @@
+# Tolerancia entre uma molecula e outra
+tolerance 2.0
+
+# Formato do arquivo de entrada
+filetype pdb
+
+# Formato e nome do arquivo de saida
+output CONF-START-CO2.pdb
+
+structure liquido.pdb
+  number 1
+  center
+  fixed X/2 Y/2 (Z+100)/2 0. 0. 0.
+end structure
+
+structure CO2.pdb
+  number 300
+  inside box 0 0 0 X Y (Z+100)
+end structure
+
+# Valores X Y e Z em agstrons 
+

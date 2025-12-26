@@ -1,0 +1,967 @@
+gmx grompp -f GROMPP-01.mdp -c CONF-START.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r CONF-START.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+gmx grompp -f GROMPP-01.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro   
+gmx mdrun -e -v
+gmx grompp -f GROMPP-02.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-03.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-04.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-05.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-06.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-07.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+gmx grompp -f GROMPP-08.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+echo "EQUIL-01 FINALIZADO"
+
+gmx grompp -f GROMPP-09.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+echo "EQUIL-02 FINALIZADO"
+
+gmx grompp -f GROMPP-10.mdp -c confout.gro -p topol.top -o topol.tpr -maxwarn 10 -n -r confout.gro
+gmx mdrun -e -v
+
+rm *.*.*
+
+echo "PRODUCAO FINALIZADA - CONFIRA SE ESTA OK"
+
+

@@ -1,0 +1,19 @@
+TITLE     GROtesk MACabre and Sinister
+REMARK    THIS IS A SIMULATION BOX
+CRYST1    3.843    3.720    3.519  90.00  90.00  90.00 P 1           1
+MODEL        1
+ATOM      1  N   SER     2      -0.620  -1.240  -0.690  1.00  0.00            
+ATOM      2  HT1 SER     2      -1.620  -1.130  -0.690  1.00  0.00            
+ATOM      3  HT2 SER     2      -0.340  -1.740  -1.500  1.00  0.00            
+ATOM      4  CA  SER     2       0.010   0.080  -0.690  1.00  0.00            
+ATOM      5  HA  SER     2      -0.270   0.590  -1.630  1.00  0.00            
+ATOM      6  CB  SER     2      -0.490   0.930   0.500  1.00  0.00            
+ATOM      7  HB1 SER     2      -1.600   0.990   0.520  1.00  0.00            
+ATOM      8  HB2 SER     2      -0.150   1.980   0.380  1.00  0.00            
+ATOM      9  OG  SER     2      -0.030   0.450   1.770  1.00  0.00            
+ATOM     10  HG1 SER     2      -0.390  -0.430   1.890  1.00  0.00            
+ATOM     11  C   SER     2       1.520  -0.040  -0.690  1.00  0.00            
+ATOM     12  OT1 SER     2       2.080  -1.140  -0.690  1.00  0.00            
+ATOM     13  OT2 SER     2       2.230   1.110  -0.690  1.00  0.00            
+TER
+ENDMDL
